@@ -5,7 +5,7 @@ public class MovimientoFPS : MonoBehaviour
     public CharacterController controlador;
     public float velocidad = 6.0f;
     public float gravedad = -9.81f;
-    public float alturaSalto = 1.5f;
+    public float alturaSalto = 0.7f; // Altura de salto reducida para mayor control
     
     public Transform camara;
     public float sensibilidadMouse = 2.0f;
